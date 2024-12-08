@@ -6,14 +6,14 @@ const Decode = () => {
   const [result, setResult] = useState("");
 
   return (
-    <div className="w-4/5 h-[80%] m-auto pt-16 flex flex-col sm:flex-row justify-between">
-        <div className="w-[48%]">
+    <div className="w-full pl-6 sm:w-4/5 sm:h-[80%] m-auto pt-16 flex flex-col sm:flex-row justify-between">
+        <div className="w-[90%] sm:w-[48%]">
             <Decoder 
             setResult={setResult}
             />
         </div>
         
-        <div className="Result w-[48%]">
+        <div className="Result w-[90%] mt-4 sm:mt-0 sm:w-[48%]">
           <div className="space-y-2">
             <h2 className="font-bold">Result:</h2>
             <div className="frame">
